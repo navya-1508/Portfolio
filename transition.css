@@ -24,6 +24,7 @@
   &:hover{
     scroll-behavior: smooth;
   }
+  image-rendering: ;
 }
 h1{
     color:white;
