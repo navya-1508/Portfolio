@@ -1,0 +1,23 @@
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital,wght@0,300;1,300&display=swap');
+.name{
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    align-items:center;  
+    display: flex;
+    transition: font-size 1s;
+    color:white;
+    font-size: 30;
+    font-family: 'Poppins',DM Sans;
+    &:hover{
+        font-size: 70px;
+        cursor: pointer;
+        color:goldenrod;
+    }
+}
+body{
+  background-image: url('gif1.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+}
