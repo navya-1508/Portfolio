@@ -7,7 +7,7 @@
     display: flex;
     transition: font-size 1s;
     color:white;
-    font-size: 30;
+    font-size: 30px;
     font-family: 'Poppins',DM Sans;
     &:hover{
         font-size: 70px;

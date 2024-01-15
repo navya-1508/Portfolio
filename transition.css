@@ -5,13 +5,15 @@
     float:right;
 }
 .navbar a{
-    color:white;
-    text-decoration:underline;
-    &:hover{
+    color:rgb(255, 255, 255);
         text-decoration: none;
-    }
     font-size: 20px;
+    &:hover{
+        font-size: 25px;
+    }
 }
+
+
 .navbar li{
     margin-right: 50px;
    list-style-type:none;
@@ -24,7 +26,6 @@
   &:hover{
     scroll-behavior: smooth;
   }
-  image-rendering: ;
 }
 h1{
     color:white;
@@ -37,4 +38,111 @@ h1{
     display: flex;
     font-size: 40px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image{
+    box-shadow: 5px 5px 5px ;
+    height: 10vh;
+    padding:10px;
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    &:hover{
+        opacity:0.5;
+        }
+    }
+
+
+.navbar{
+    display: inline-block; 
+    position: fixed;
+    padding:0px;
+    padding-left: 700px;
+
+}
+
+
+.tag1{
+    box-shadow: 1px 1px 1px white;
+    background-color: grey;
+    width:150px;
+    height:20vh;
+    text-align: center;
+    line-height:15vh ;
+    &:hover{
+        opacity:0.5;
+        cursor: pointer;
+    }
+}
+.tag2{
+    box-shadow: 1px 1px 1px white;
+    background-color: grey;
+    width:150px;
+    height:20vh;
+    text-align: center;
+    line-height:15vh ;
+    &:hover{
+        opacity:0.5;
+        cursor: pointer;
+    }
+
+}
+.tag3{
+    box-shadow: 1px 1px 1px white;
+    background-color: grey;
+    width:150px;
+    height:20vh;
+    text-align: center;
+    line-height:15vh ;
+    &:hover{
+        opacity:0.5;
+        cursor: pointer;
+    }
+
+}
+.tag4{
+    box-shadow: 1px 1px 1px white;
+    background-color: grey;
+    width:150px;
+    height:20vh;
+    text-align: center;
+    line-height:15vh ;
+    &:hover{
+        opacity:0.5;
+        cursor: pointer;
+    }
+
+}
+.tag1 h1{
+    color:white;
+}
+.tag2 h1{
+    color:white;
+}
+.tag3 h1{
+    color:white;
+}
+.tag4 h1{
+    color:white;
+}
+.skill-tags{
+    display: flex;
+    padding: 200px;
+}
+.skill{
+    display: inline;
+    display: flex;
+}
+.tag1,.tag2,.tag3{
+    margin-right: 80px;
+}
+#resume{
+    height:100vh;
+    padding:300px;
+}
+#resume h1{
+    font-size: 50px;
+    &:hover{
+        cursor: pointer;
+
+    }
 }
