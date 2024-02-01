@@ -1,7 +1,7 @@
 .navbar ul{
     display: inline;
     display: flex;
-    padding:10px;
+    padding:0px;
     float:right;
 }
 .navbar a{
@@ -19,7 +19,7 @@
    list-style-type:none;
 }
 .body{
-    background-image: url('gif1.gif');
+    background-image: url('home.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; 
@@ -29,6 +29,11 @@
 }
 h1{
     color:white;
+}
+#home h1{
+    &:hover{
+        cursor: pointer;
+    }
 }
 .click{
     text-align: center;
@@ -42,7 +47,7 @@ h1{
 .image{
     box-shadow: 5px 5px 5px ;
     height: 10vh;
-    padding:10px;
+    padding:0px;
     display: inline-block;
     cursor: pointer;
     position: fixed;
@@ -63,7 +68,7 @@ h1{
 
 .tag1{
     box-shadow: 1px 1px 1px white;
-    background-color: grey;
+    background-color:gray;
     width:150px;
     height:20vh;
     text-align: center;
@@ -137,7 +142,8 @@ h1{
 }
 #resume{
     height:100vh;
-    padding:300px;
+    padding:250px;
+ 
 }
 #resume h1{
     font-size: 50px;
@@ -145,4 +151,121 @@ h1{
         cursor: pointer;
 
     }
+}
+#resume h2{
+    color:white;
+    &:hover{
+        cursor: pointer;
+    }
+    padding-left: 280px;
+}
+#resume a{
+    color:white;
+    text-decoration: none;
+}
+#contact h2{
+    color:white;
+    font-size: 50px;
+}
+
+#contact{
+    padding-top: 50px;
+    padding-left: 200px;
+    height:100vh;
+    width:100%;
+}
+
+/* .contacti{
+   text-decoration: right;
+   padding-left: 500px;
+   top:0;
+    
+} */
+.contacti{
+    padding-left:450px;
+    height:66vh;
+}
+.total{
+    display:flex;
+}
+.insta{
+    height:5vh;
+}
+.git{
+    height:5vh;
+}
+.linkedin{
+    height:5vh;
+}
+.email{
+    height:5vh;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    margin-right: 20px;
+}
+span a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+ #insta{
+    color:white;
+    text-decoration: none;
+    padding-left:10px ;
+}
+
+
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+
+}
+
+.images img {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+#skills{
+    height:100vh;
+    padding:70px;
+}
+
+#bio h2{
+    padding-left: 320px;
+    padding-top: 37px;
+    color:white;
+}
+#bio{
+    color:white;
+    height:100vh;
+    padding-left: 10px;
+}
+#bio h2{
+    color:white
+}
+#bio h2{
+    font-size: 40px;
+}
+
+.back-to-top-button{
+   height:6vh;
+   cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color:white;
+  color:black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 9px;
+  &:hover{
+    background-color: gray;
+    color:white;
+  }
 }
